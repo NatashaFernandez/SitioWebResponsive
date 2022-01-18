@@ -84,6 +84,52 @@ h3 {
   animation-timing-function: ease-in-out;
 }
 
+.menu-mobile{
+  display: none;
+}
+
+.menu-mobile a:hover svg{
+  fill: var(--highlight-color);
+}
+
+.menu-mobile .header{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-mobile .header .logo{
+  flex-grow: 2;
+  text-align: center;
+}
+
+.menu-mobile .header .logo img{
+  width: 64px;
+
+  animation-name: opening-logo;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-in-out;
+}
+
+.menu-mobile ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-mobile ul li{
+  text-align: center;
+}
+
+.menu-mobile ul li a{
+  display: block;
+  padding: 10px 0;
+}
+
 @keyframes opening-logo {
   0%{
     transform: scale(0);
@@ -91,10 +137,6 @@ h3 {
   100%{
     transform: scale(1);
   }
-
-}
-@media(max-width: 1450px) {
-
 }
 
 @media(max-width: 1450px) {
@@ -114,9 +156,15 @@ h3 {
 }
 
 @media(max-width: 540px) {
+  .menu{
+    display: none;
+  }
 
-}
+  .menu-mobile{
+    display: block;
+  }
 
-@media(max-width: 1450px) {
-
+  .menu-mobile-closed{
+    display: none;
+  }
 }

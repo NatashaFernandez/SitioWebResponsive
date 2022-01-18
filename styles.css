@@ -1,0 +1,59 @@
+:root{
+    --background-color: #16ffbd;
+    --primary-color: 000;
+    --highlight-color: #FF8DAC;
+}
+body{
+    background-color: var( --background-color);
+    font-family: 'Work Sans' Arial, Helvetica, sans-serif;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
+:-moz-selection{
+    background-color: var(--highlight-color);
+}
+::selection{
+    background-color: var(--highlight-color);
+}
+a:hover{
+    color: var(--highlight-color);
+}
+h2, h3{
+    font-family:'Barlow Condensed' Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.container{
+    width: 1920px;
+}
+
+@media(max-width: 1450){
+
+}  
+
+@media(max-width: 1450){
+
+}
+@media(max-width: 1280){
+
+}
+@media(max-width: 900){
+
+}
+@media(max-width: 800){
+
+}
+@media(max-width: 540){
+
+}
+
+@media(max-width: 1450){
+
+}

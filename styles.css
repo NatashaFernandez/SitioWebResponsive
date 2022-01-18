@@ -1,59 +1,101 @@
-:root{
-    --background-color: #16ffbd;
-    --primary-color: 000;
-    --highlight-color: #FF8DAC;
-}
-body{
-    background-color: var( --background-color);
-    font-family: 'Work Sans' Arial, Helvetica, sans-serif;
-    line-height: 2;
-    padding: 0;
-    margin: 0;
-}
-:-moz-selection{
-    background-color: var(--highlight-color);
-}
-::selection{
-    background-color: var(--highlight-color);
-}
-a:hover{
-    color: var(--highlight-color);
-}
-h2, h3{
-    font-family:'Barlow Condensed' Arial, Helvetica, sans-serif;
-}
-h2{
-    font-size: 2.5rem;
-    text-align: center;
-}
-h3{
-    font-size: 1.5rem;
-    text-align: center;
-}
-.container{
-    width: 1920px;
+:root {
+  --background-color: #16ffbd;
+  --primary-color: 000;
+  --highlight-color: #FF8DAC;
 }
 
-@media(max-width: 1450){
-
-}  
-
-@media(max-width: 1450){
-
-}
-@media(max-width: 1280){
-
-}
-@media(max-width: 900){
-
-}
-@media(max-width: 800){
-
-}
-@media(max-width: 540){
-
+body {
+  background-color: var( --background-color);
+  font-family: 'Work Sans' Arial, Helvetica, sans-serif;
+  line-height: 2;
+  padding: 0;
+  margin: 0;
 }
 
-@media(max-width: 1450){
+:-moz-selection {
+  background-color: var(--highlight-color);
+}
+
+::selection {
+  background-color: var(--highlight-color);
+}
+
+a:hover {
+  color: var(--highlight-color);
+}
+
+h2,
+h3 {
+  font-family: 'Barlow Condensed' Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.container {
+  width: 1920px;
+}
+
+/*  menu  */
+
+.menu {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto 0 auto;
+  width: 50%;
+  align-items: center;
+}
+
+.menu > div{
+  width: 33%;
+}
+
+.menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu a{
+  font-family: 'Barlow Condensed';
+  font-size: 1.7rem;
+}
+
+@media(max-width: 1450px) {
+
+}
+
+@media(max-width: 1450px) {
+
+}
+
+@media(max-width: 1280px) {
+
+}
+
+@media(max-width: 900px) {
+
+}
+
+@media(max-width: 800px) {
+
+}
+
+@media(max-width: 540px) {
+
+}
+
+@media(max-width: 1450px) {
 
 }

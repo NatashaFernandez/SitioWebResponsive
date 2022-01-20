@@ -87,11 +87,9 @@ h3 {
 .menu-mobile{
   display: none;
 }
-
 .menu-mobile a:hover svg{
   fill: var(--highlight-color);
 }
-
 .menu-mobile .header{
   display: flex;
   width: 100%;
@@ -100,12 +98,10 @@ h3 {
   justify-content: space-between;
   align-items: center;
 }
-
 .menu-mobile .header .logo{
   flex-grow: 2;
   text-align: center;
 }
-
 .menu-mobile .header .logo img{
   width: 64px;
 
@@ -113,23 +109,19 @@ h3 {
   animation-duration: 1.6s;
   animation-timing-function: ease-in-out;
 }
-
 .menu-mobile ul{
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
 }
-
 .menu-mobile ul li{
   text-align: center;
 }
-
 .menu-mobile ul li a{
   display: block;
   padding: 10px 0;
 }
-
 .menu-mobile-closed{
   display: none;
 }
@@ -144,12 +136,10 @@ h3 {
   height: 500px;
   margin-bottom: 150px;
 }
-
 .main-video .video{
   overflow: hidden;
   transform: skewY(10deg) scale(1.4, 1.4);
 }
-
 .main-video .video video{
   margin-top: -100px;
   width: 100%;
@@ -185,16 +175,14 @@ h3 {
   overflow: hidden;
   height: 300px;
 }
-
 .grid .item img{
   width: 101%;
   margin-top: -60px;
-  transform: skewY(10deg) scale(1,1);
+  transform: skewY(10deg) scale(1.2,1.2);
   transition: all 0.075s;
 }
-
 .grid .item:hover img{
-  transform: skewY(10deg) scale(1.2,1.2);
+  transform: skewY(10deg) scale(1.4,1.4);
 }
 .grid .item .bg-hover{
   background-color: rgba(0, 0, 0, 0.7);
@@ -216,17 +204,14 @@ h3 {
   overflow: hidden;
   opacity: 1;
 }
-
 .grid .item:hover .bg-hover .info{
   animation-name: bounce;
   animation-duration: 0.4s;
   animation-timing-function: ease-in-out;
 }
-
 .grid .item .bg-hover .title {
   color: white;
 }
-
 .grid .item .bg-hover .costumer {
   color: var(--background-color)
 }
@@ -252,16 +237,35 @@ h3 {
   .main-video{
     height: 600px;
   }
+
+  .grid .item{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+  }
 }
 
 @media(max-width: 1280px) {
   .main-video{
     height: 400px;
   }
+
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid .item{
+    height: 150px;
+  }
 }
 
 @media(max-width: 900px) {
-
+  .grid .item{
+    height: 150px;
+  }
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media(max-width: 800px) {
@@ -270,6 +274,13 @@ h3 {
   }
   .main-video .video video{
     margin-top: 0;
+  }
+
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid .item{
+    height: 150px;
   }
 }
 
@@ -285,9 +296,15 @@ h3 {
   .main-video .video video{
     margin-top: 0;
   }
-  
   .main-video{
     margin-top: 100px;
     height: 150px;
+  }
+
+  .grid{
+    grid-template-columns: 1fr;
+  }
+  .grid .item{
+    height: 200px;
   }
 }

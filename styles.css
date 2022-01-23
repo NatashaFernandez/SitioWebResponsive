@@ -317,14 +317,18 @@ footer{
   justify-content: space-between;
   padding: 20px;
 }
-
+/*
 .item-hide{
   display: none;
-}
+}*/
 
 #details-container .items{
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
+}
+
+#details-container .items .item .main-image img{
+  width: 100%;
 }
 
 #details-container .items .item .title{
@@ -351,9 +355,9 @@ footer{
 /* keyframe screen */
 
 @keyframes fade-in {
-  0%{transform: translateY(500px);}
-  80%{transform: translateY(-30);}
-  100%{transform: translateY(0);}
+  0%{height: 0vh;}
+  80%{height: 150vh;}
+  100%{height: 0vh;}
 }
 
 @media(max-width: 1450px) {

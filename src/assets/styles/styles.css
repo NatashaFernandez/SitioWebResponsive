@@ -22,10 +22,22 @@ h1,h2,h3 {
   font-weight: 600;
   text-align: center;
 }
+h1{
+  font-size: 2.4em;
+}
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1em;
+}
+
 p{
   color: var(--Grayish-Blue);
   font-weight: 400;
-  max-width: 660px;
+  max-width: 700px;
+  line-height: 1.5;
+  font-size: 20px;
 }
 
 .landing{
@@ -42,25 +54,31 @@ p{
   padding-top: 1em;
 }
 
+.download-buttons{
+  margin-top: 2.8em;
+}
+
 .download-buttons button{
   color: #fff;
-  padding: 15px 30px;
+  padding: 18px 40px 13px 40px;
   border-radius: 50px;
   border: none;
   border-bottom: 3px solid rgba(124, 124, 124, 0.5);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .download-buttons button:first-of-type{
   background-color: var(--Strong-Cyan);
   box-shadow: 0px 4px 25px -7px var(--Strong-Cyan);
   margin-right: 5px;
+  font-size: 18px;
 }
 
 .download-buttons button:last-of-type{
   background-color: var(--Light-Blue);
   box-shadow: 0px 4px 25px -7px var(--Light-Blue);
   margin-left: 5px;
+  font-size: 18px;
 }
 
 @media (min-width: 1440px) {

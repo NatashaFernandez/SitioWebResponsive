@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Work+Sans&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 
 <body>
@@ -20,17 +20,17 @@
     <div class="menu">
       <div class="menu-left">
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">WORK</a></li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#work-menu">WORK</a></li>
         </ul>
       </div>
       <div class="logo">
-        <img src="img/logo.svg" alt="">
+        <img src="assets/img/logo.svg" alt="">
       </div>
       <div class="menu-right">
         <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#about-menu">ABOUT</a></li>
+          <li><a href="#contact-menu">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -38,11 +38,11 @@
     <div class="menu-mobile">
       <div class="menu-open-close">
         <div class="header">
-          <a href="#" class="logo">
-            <img src="img/logo.svg" alt="">
+          <a href="#" class="logo" >
+            <img src="assets/img/logo.svg" alt="">
           </a>
           <a href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+            <svg id="buttonOpenCloseMenu" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
               <path d="M0 0h24v24H0z" fill="none" />
               <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
             </svg>
@@ -50,31 +50,31 @@
         </div>
         <div id="menu-mobile-items" class="menu-mobile-closed">
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">WORK</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#work-menu">WORK</a></li>
+            <li><a href="#about-menu">ABOUT</a></li>
+            <li><a href="#contact-menu">CONTACT</a></li>
           </ul>
         </div>
       </div>
     </div>
     <!-- main-video -->
     <section class="main-video">
-      <video src="video/video.mp4" autoplay loop></video>
+      <video src="assets/video/video.mp4" autoplay loop></video>
     </section>
     <!-- intro -->
-    <section class="intro">
+    <section class="intro" id="home">
       <h2>LOUD STORIES <br> EXEPTIONAL CRAFT</h2>
       <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aut odio facere dolorem eaque nesciunt
         velit saepe totam deserunt accusamus minima iusto quia.</P>
     </section>
     <!-- work -->
-    <section>
+    <section id="work-menu">
       <h2>WORK</h2>
       <div class="grid work">
         <!-- ITEM -->
         <a href="#" class="item" data-id="0">
-          <img src="img/portada-01.jpg" width="100%" alt="">
+          <img src="assets/img/portada-01.jpg" width="100%" alt="">
           <div class="bg-hover">
             <div class="info">
               <div class="title">VIAJE AL ESPACIO</div>
@@ -84,7 +84,7 @@
         </a>
         <!-- ITEM -->
         <a href="#" class="item" data-id="1">
-          <img src="img/portada-02.jpg" width="100%" alt="">
+          <img src="assets/img/portada-02.jpg" width="100%" alt="">
           <div class="bg-hover">
             <div class="info">
               <div class="title">VIAJE AL ESPACIO</div>
@@ -94,7 +94,7 @@
         </a>
         <!-- ITEM -->
         <a href="#" class="item" data-id="2">
-          <img src="img/portada-03.jpg" width="100%" alt="">
+          <img src="assets/img/portada-03.jpg" width="100%" alt="">
           <div class="bg-hover">
             <div class="info">
               <div class="title">VIAJE AL ESPACIO</div>
@@ -104,7 +104,7 @@
         </a>
         <!-- ITEM -->
         <a href="#" class="item" data-id="3">
-          <img src="img/portada-04.jpg" width="100%" alt="">
+          <img src="assets/img/portada-04.jpg" width="100%" alt="">
           <div class="bg-hover">
             <div class="info">
               <div class="title">VIAJE AL ESPACIO</div>
@@ -114,7 +114,7 @@
         </a>
         <!-- ITEM -->
         <a href="#" class="item" data-id="4">
-          <img src="img/portada-05.jpg" width="100%" alt="">
+          <img src="assets/img/portada-05.jpg" width="100%" alt="">
           <div class="bg-hover">
             <div class="info">
               <div class="title">VIAJE AL ESPACIO</div>
@@ -124,7 +124,7 @@
         </a>
         <!-- ITEM -->
         <a href="#" class="item" data-id="5">
-          <img src="img/portada-06.jpg" width="100%" alt="">
+          <img src="assets/img/portada-06.jpg" width="100%" alt="">
           <div class="bg-hover">
             <div class="info">
               <div class="title">VIAJE AL ESPACIO</div>
@@ -134,7 +134,7 @@
         </a>
         <!-- ITEM -->
         <a href="#" class="item" data-id="6">
-          <img src="img/portada-07.jpg" width="100%" alt="">
+          <img src="assets/img/portada-07.jpg" width="100%" alt="">
           <div class="bg-hover">
             <div class="info">
               <div class="title">VIAJE AL ESPACIO</div>
@@ -143,7 +143,7 @@
           </div>
         </a>
         <a href="#" class="item" data-id="7">
-          <img src="img/portada-08.jpg" width="100%" alt="">
+          <img src="assets/img/portada-08.jpg" width="100%" alt="">
           <div class="bg-hover">
             <div class="info">
               <div class="title">VIAJE AL ESPACIO</div>
@@ -152,7 +152,7 @@
           </div>
         </a>
         <a href="#" class="item" data-id="8">
-          <img src="img/portada-09.jpg" width="100%" alt="">
+          <img src="assets/img/portada-09.jpg" width="100%" alt="">
           <div class="bg-hover">
             <div class="info">
               <div class="title">VIAJE AL ESPACIO</div>
@@ -163,7 +163,7 @@
       </div>
     </section>
     <!-- about -->
-    <section class="about">
+    <section class="about" id="about-menu">
       <h2>SKILLS</h2>
       <p>CREATE DIRECTION | STORY DEVELOPEMENT</p>
       <div class="columns">
@@ -188,9 +188,9 @@
       </div>
     </section>
     <!-- contact -->
-    <section class="contact">
-      <div class="contact container">
-        <h2>CONTACT US</h2>
+    <section class="contact" >
+      <div class="contact container" >
+        <h2 id="contact-menu">CONTACT US</h2>
 
         <div class="columns">
           <div class="location">
@@ -260,19 +260,19 @@
   <div id="details-container">
     <div class="nav-bar">
       <div class="nav-buttons">
-        <a href="#">
+        <a href="#" id="prev-button">
           <span class="material-icons md-48">
             arrow_back_ios
           </span>
         </a>
-        <a href="#">
+        <a href="#" id="next-button">
           <span class="material-icons md-48">
             arrow_forward_ios
           </span>
         </a>
       </div>
       <div class="close">
-        <a href="">
+        <a href="#" id="close-button">
           <span class="material-icons md-48">
             close
           </span>
@@ -282,7 +282,7 @@
     <div class="items">
       <div class="item item-hide">
         <div class="main-image">
-          <img src="img/portada-01.jpg" alt="">
+          <img src="assets/img/portada-01.jpg" alt="">
         </div>
         <div class="title">
           <h2>VIAJE AL ESPACIO</h2>
@@ -297,7 +297,7 @@
       </div>
       <div class="item item-hide">
         <div class="main-image">
-          <img src="img/portada-02.jpg" alt="">
+          <img src="assets/img/portada-02.jpg" alt="">
         </div>
         <div class="title">
           <h2>VIAJE AL ESPACIO</h2>
@@ -312,7 +312,7 @@
       </div>
       <div class="item item-hide">
         <div class="main-image">
-          <img src="img/portada-03.jpg" alt="">
+          <img src="assets/img/portada-03.jpg" alt="">
         </div>
         <div class="title">
           <h2>VIAJE AL ESPACIO</h2>
@@ -327,7 +327,7 @@
       </div>
       <div class="item item-hide">
         <div class="main-image">
-          <img src="img/portada-04.jpg" alt="">
+          <img src="assets/img/portada-04.jpg" alt="">
         </div>
         <div class="title">
           <h2>VIAJE AL ESPACIO</h2>
@@ -342,7 +342,7 @@
       </div>
       <div class="item item-hide">
         <div class="main-image">
-          <img src="img/portada-05.jpg" alt="">
+          <img src="assets/img/portada-05.jpg" alt="">
         </div>
         <div class="title">
           <h2>VIAJE AL ESPACIO</h2>
@@ -357,7 +357,7 @@
       </div>
       <div class="item item-hide">
         <div class="main-image">
-          <img src="img/portada-06.jpg" alt="">
+          <img src="assets/img/portada-06.jpg" alt="">
         </div>
         <div class="title">
           <h2>VIAJE AL ESPACIO</h2>
@@ -372,7 +372,7 @@
       </div>
       <div class="item item-hide">
         <div class="main-image">
-          <img src="img/portada-07.jpg" alt="">
+          <img src="assets/img/portada-07.jpg" alt="">
         </div>
         <div class="title">
           <h2>VIAJE AL ESPACIO</h2>
@@ -387,7 +387,7 @@
       </div>
       <div class="item item-hide">
         <div class="main-image">
-          <img src="img/portada-08.jpg" alt="">
+          <img src="assets/img/portada-08.jpg" alt="">
         </div>
         <div class="title">
           <h2>VIAJE AL ESPACIO</h2>
@@ -402,7 +402,7 @@
       </div>
       <div class="item item-hide">
         <div class="main-image">
-          <img src="img/portada-09.jpg" alt="">
+          <img src="assets/img/portada-09.jpg" alt="">
         </div>
         <div class="title">
           <h2>VIAJE AL ESPACIO</h2>
@@ -418,6 +418,7 @@
     </div>
     <!-- screen -->
     <div id="screen"></div>
+    <script src="assets/scripts/app.js"></script>
 </body>
 
 </html>

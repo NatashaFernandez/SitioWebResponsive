@@ -50,7 +50,6 @@ h3 {
   display: flex;
   justify-content: space-between;
   margin: 100px auto 0 auto;
-  width: 50%;
   align-items: center;
 }
 
@@ -122,6 +121,7 @@ h3 {
 .menu-mobile ul li a{
   display: block;
   padding: 10px 0;
+  text-decoration: none;
 }
 .menu-mobile-closed{
   display: none;
@@ -318,6 +318,10 @@ footer{
   padding: 20px;
 }
 
+#details-container .nav-buttons{
+  margin: auto;
+}
+
 .item-hide{
   display: none;
 }
@@ -348,7 +352,7 @@ footer{
 /* keyframe grid item */
 @keyframes bounce{
   0% {transform: translateY(500px);}
-  80% {transform: translateY(-30px);}
+  50% {transform: translateY(-30px);}
   100%{transform: translateY(0);}
 }
 

@@ -213,8 +213,8 @@ h3 {
 .grid .item .bg-hover .title {
   color: white;
 }
-.grid .item .bg-hover .costumer {
-  color: var(--background-color)
+.grid .item .bg-hover .customer {
+  color: var(--background-color);
 }
 
 /*  about  */
@@ -317,10 +317,10 @@ footer{
   justify-content: space-between;
   padding: 20px;
 }
-/*
+
 .item-hide{
   display: none;
-}*/
+}
 
 #details-container .items{
   width: 60%;

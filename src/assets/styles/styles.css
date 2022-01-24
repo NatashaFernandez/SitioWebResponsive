@@ -1,0 +1,71 @@
+:root{
+  /*Primary*/
+  --Strong-Cyan: hsl(171,66%,44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  /*Neutral - fonts colors*/
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Bai Jamjuree', Arial, Helvetica, sans-serif;
+  line-height: 2;
+  font-size: 18px;
+}
+
+h1,h2,h3 {
+  color: var(--Dark-Grayish-Blue);
+  font-weight: 600;
+  text-align: center;
+}
+p{
+  color: var(--Grayish-Blue);
+  font-weight: 400;
+  max-width: 660px;
+}
+
+.landing{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  padding-top: 7em;
+  padding-bottom: 5em;
+  background: no-repeat top center url(../images/bg-header-desktop.png);
+}
+.landing>h1{
+  padding-top: 1em;
+}
+
+.download-buttons button{
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  border-bottom: 3px solid rgba(124, 124, 124, 0.5);
+  font-weight: 600;
+}
+
+.download-buttons button:first-of-type{
+  background-color: var(--Strong-Cyan);
+  box-shadow: 0px 4px 25px -7px var(--Strong-Cyan);
+  margin-right: 5px;
+}
+
+.download-buttons button:last-of-type{
+  background-color: var(--Light-Blue);
+  box-shadow: 0px 4px 25px -7px var(--Light-Blue);
+  margin-left: 5px;
+}
+
+@media (min-width: 1440px) {
+  
+}
+@media (max-width: 375px){
+    
+}

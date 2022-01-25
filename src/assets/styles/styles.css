@@ -210,5 +210,23 @@ footer .social-icons img{
   
 }
 @media (max-width: 375px){
-    
+  .landing{
+    background: no-repeat url(../images/bg-header-mobile.png);
+  }
+  /* Landing */
+  .landing>h1{
+    line-height: 1.5;
+  }
+  .download-buttons{
+    display: flex;
+  }
+  .download-buttons button{
+    padding: 10px 25px 6px 25px;
+  }
+  .download-buttons button:first-of-type {
+    margin-left: 5px;
+  }
+  .download-buttons button:last-of-type {
+    margin-right: 5px;
+  }
 }

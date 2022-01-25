@@ -107,6 +107,7 @@ p{
 .features .features-list .list{
   text-align: left;
   margin-bottom: 45px;
+  text-align: left;
   font-size: 15px;
   max-width: 330px;
 }
@@ -268,6 +269,7 @@ footer .social-icons img{
     margin-top: 2em;
     width: 90%;
   }
+
   /* Workflow */
   .workflow p{
     max-width: none;
@@ -281,4 +283,14 @@ footer .social-icons img{
     flex-direction: column;
     margin-top: 2em;
   }
-}
+
+  /* Partners */
+  .partners{
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+  .partners img{
+    height: auto;
+    margin-bottom: 3em;
+  }
+} 

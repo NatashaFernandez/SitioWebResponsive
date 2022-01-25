@@ -196,6 +196,11 @@ footer .footer-list a{
   padding-right: 55px;
   color: var(--Dark-Grayish-Blue);
 }
+footer .social-icons{
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
 footer .social-icons img{
   height: 20px;
   margin: 10px;

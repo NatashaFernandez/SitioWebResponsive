@@ -205,11 +205,8 @@ footer .social-icons img{
   margin: 10px;
 }
 
-@media (min-width: 1440px){
-  
-}
 @media(max-width: 800px){
-.features .features-list{
+  .features .features-list{
   flex-wrap: wrap;
   justify-content: center;
   }

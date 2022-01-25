@@ -243,6 +243,9 @@ footer .social-icons img{
   }
 
   /* Features */
+  .features{
+    padding-bottom: 1em;
+  }
   .features .features-list{
     flex-direction: column;
     margin-top: 1em;
@@ -258,5 +261,24 @@ footer .social-icons img{
   .column{
     margin-left: 1em;
     margin-top: 1em;
+  }
+
+  /* Devices */
+  .devices img {
+    margin-top: 2em;
+    width: 90%;
+  }
+  /* Workflow */
+  .workflow p{
+    max-width: none;
+  }
+  .workflow{
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  .workflow .workflow-row{
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2em;
   }
 }

@@ -2,6 +2,8 @@
   /*Primary*/
   --Strong-Cyan: hsl(171,66%,44%);
   --Light-Blue: hsl(233, 100%, 69%);
+  --Button-hover-first: rgba(43, 228, 200, 0.76);
+  --Button-hover-last: hsl(233, 100%, 73%);
   /*Neutral - fonts colors*/
   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
   --Grayish-Blue: hsl(201, 11%, 66%);
@@ -75,11 +77,19 @@ p{
   margin-right: 5px;
   font-size: 18px;
 }
+.download-buttons button:first-of-type:hover{
+  background-color: var(--Button-hover-first);
+  box-shadow: -7px 13px 25px -7px var(--Strong-Cyan);
+}
 .download-buttons button:last-of-type{
   background-color: var(--Light-Blue);
   box-shadow: 0px 4px 25px -7px var(--Light-Blue);
   margin-left: 5px;
   font-size: 18px;
+}
+.download-buttons button:last-of-type:hover{
+  background-color: var(--Button-hover-last);
+  box-shadow: -7px 13px 25px -7px var(--Light-Blue);
 }
 
 /* Features */

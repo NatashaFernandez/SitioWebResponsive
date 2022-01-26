@@ -244,16 +244,19 @@ footer .social-icons svg{
   flex-wrap: wrap;
   justify-content: center;
   }
+
  .column{
   display: flex;
   margin-top: 2em;
   flex-direction: row;
   flex-wrap: wrap;
   }
+
  .workflow .workflow-row{
   justify-content: center;
   flex-wrap: wrap;
   }
+
   .partners{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -263,11 +266,19 @@ footer .social-icons svg{
     height: auto;
     margin-bottom: 3em;
   }
+
+  footer{
+    height: auto;
+  }
 }
 
 @media (max-width: 480px){
   .partners{
   grid-template-columns: 1fr 1fr ;
+  }
+
+  footer{
+    height: auto;
   }
 }
 
@@ -359,6 +370,9 @@ footer .social-icons svg{
   }
 
   /* Footer */
+  footer{
+    height: auto;
+  }
   footer img{
     padding-bottom: 5px;
   }
